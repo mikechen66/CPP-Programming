@@ -1,4 +1,4 @@
-# Programming Principles and Practice Using C++
+# The C++ Programming Language 4ED
 Bjarne Stroustrup
 
 ## Introduction
