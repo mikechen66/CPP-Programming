@@ -8,10 +8,9 @@ lightweight abstractions. It is particularly suited for resource-constrained app
 such as those found in software infrastructures. C++ rewards the programmer who takes the 
 time to master techniques for writing quality code.
 
+https://github.com/bretternst/tcpppl_answers
 
 https://github.com/fatih-iver/The-C-Plus-Plus-Programming-L
-
-https://github.com/bretternst/tcpppl_answers
 
 https://github.com/Raj-kar/C-Plus-Plus
 
