@@ -22,3 +22,31 @@ C++ is standardized with the latest standard version ratified and published as C
 previous version was amended by the standards of C++03, C++11, C++14, and C++17. The C++20 
 standard supersedes these with new features and an enlarged standard library. Since 2012, 
 C++ has been on a three-year release schedule with C++23 as the next planned standard.
+
+## Resources
+
+Please have a look at the varieties of resources as follows.
+
+C++ Standard Library
+
+https://en.cppreference.com/w/cpp/header
+
+Reference:
+
+https://www.cplusplus.com/reference/
+
+Microsoft C++ Standard Library
+
+https://docs.microsoft.com/en-us/cpp/standard-library/cpp-standard-library-reference?view=msvc-160
+
+Oracle
+
+https://docs.oracle.com/cd/E19957-01/806-3569/Standard.html
+
+ISO
+
+https://isocpp.org/std/standing-documents/sd-8-standard-library-compatibility
+
+Wiki
+
+https://en.wikipedia.org/wiki/C%2B%2B_Standard_Library
