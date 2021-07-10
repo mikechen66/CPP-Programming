@@ -1,2 +1,0 @@
-/Users/hisamuka/workspace/a-tour-of-cpp/14-numerics/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/hisamuka/workspace/a-tour-of-cpp/14-numerics/cmake-build-debug/CMakeFiles/edit_cache.dir
