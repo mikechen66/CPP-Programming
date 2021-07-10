@@ -10,7 +10,7 @@ time to master techniques for writing quality code.
 
 https://github.com/bretternst/tcpppl_answers
 
-https://github.com/fatih-iver/The-C-Plus-Plus-Programming-L
+https://github.com/fatih-iver/The-C-Plus-Plus-Programming-Language
 
 https://github.com/Raj-kar/C-Plus-Plus
 
