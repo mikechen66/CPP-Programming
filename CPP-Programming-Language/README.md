@@ -33,6 +33,10 @@ C++ has been on a three-year release schedule with C++23 as the next planned sta
 
 Please have a look at the varieties of resources as follows.
 
+Book Introduction
+
+https://www.stroustrup.com/4th.html
+
 C++ Standard Library
 
 https://en.cppreference.com/w/cpp/header
@@ -56,6 +60,10 @@ https://isocpp.org/std/standing-documents/sd-8-standard-library-compatibility
 Classcial C++ Applications 
 
 https://www.stroustrup.com/applications.html
+
+ebook: 
+
+http://index-of.co.uk/Programming/The%20C++%20Programming.Language.4th.Edition.Jun.2013%5BA4%5D.pdf
 
 Wiki
 
