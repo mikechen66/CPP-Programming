@@ -20,4 +20,6 @@ https://github.com/RainerGrimm/Cpp20
 
 https://github.com/mlivesu/cinolib
 
+https://github.com/juraev/Generic-Programming-with-CPP
+
 https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
