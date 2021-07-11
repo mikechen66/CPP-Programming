@@ -1,0 +1,319 @@
+The C++ Standard Library - A Tutorial and Reference, 2nd Edition
+Bibliography
+The following links refer to additional, relevant informations about the book The C++ Standard Library, 2nd Edition by Nicolai M. Josuttis.
+Newsgroups and Forums
+The Internet provides a diverse collection of forums or newsgroups about programming, C++, the C++ standard library, and the STL. Some of them are moderated, which improves the quality of the forum a lot because every submission is examined in some way for its appropriateness. The most important newsgroups and forums are:
+Newsgroup comp.lang.c++.moderated, a moderated forum for technical discussions of C++
+Newsgroup comp.std.c++, a moderated forum for discussions of the C++ standard
+Forum stackoverflow.com, a moderated forum for discussions of programming, where you can use tags, such as c++ or c++11, for C++ specific topics
+Newsgroup comp.lang.c++, an unmoderated forum for discussions of C++
+Newsgroup alt.comp.lang.learn.c-c++, an unmoderated forum for beginners of C and C++
+Books and Web Sites
+[Abrahams:RValues]:
+
+    Dave Abrahams:
+    Move It With Rvalue References
+    see https://web.archive.org/web/20121221100546/http://cpp-next.com/archive/2009/09/move-it-with-rvalue-references
+
+[Austern:STL]:
+
+    Matthew H. Austern:
+    Generic Programming and the STL: Using and Extending the C++ Standard Template Library
+    Addison-Wesley, 1998
+
+[Becker:LibExt]:
+
+    Pete Becker:
+    The C++ Standard Library Extensions: A Tutorial and Reference
+    Addison-Wesley, 2007
+
+[Becker:RValues]:
+
+    Thomas Becker:
+    C++ Rvalue References Explained
+    see http://thbecker.net/articles/rvalue_references/section_01.html
+
+[Boehm:C++MM]:
+
+    Hans J. Boehm:
+    Threads and memory model for C++
+    see http://www.hpl.hp.com/personal/Hans_Boehm/c++mm/
+
+[BoehmAdve:MemMod]:
+
+    Hans J. Boehm and Sarita V. Adve:
+    Foundations of the C++ Concurrency Memory Model
+    see http://www.hpl.hp.com/techreports/2008/HPL-2008-56.html
+
+[Boost]:
+
+    Boost C++ Libraries
+    see http://www.boost.org/
+
+[Breymann:STL]:
+
+    Ulrich Breymann:
+    Komponenten entwerfen mit der STL
+    Addison-Wesley, 1999
+
+[C++Std1998]:
+
+    ISO:
+    Information Technology - Programming Languages - C++
+    Document Number ISO/IEC 14882-1998
+    ISO/IEC, 1998
+
+[C++Std2003]:
+
+    ISO:
+    Information Technology - Programming Languages - C++, Second Edition
+    Document Number ISO/IEC 14882-2003
+    ISO/IEC, 2003
+
+[C++Std2011]:
+
+    ISO:
+    Information Technology - Programming Languages - C++, Third Edition
+    Document Number ISO/IEC 14882-2011
+    ISO/IEC, 2011
+
+[C++Std2011Draft]:
+
+    Pete Becker, ed:
+    Working Draft, Standard for Programming Language C++ (C++11)
+    see http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2011/n3242.pdf
+
+[ECMAScript]:
+
+    Ecma International:
+    ECMAScript Language Specification (ECMA-262)
+    see http://www.ecma-international.org/publications/standards/Ecma-262.htm
+
+[Eggink:C++IO]:
+
+    Bernd Eggink:
+    Die C++ iostreams--Library
+    Hanser Verlag, 1995
+
+[EllisStroustrup:ARM]:
+
+    Margaret A. Ellis and Bjarne Stroustrup:
+    The Annotated C++ Reference Manual (ARM)
+    Addison-Wesley, 1990
+
+[HoadZobel:HashCombine]:
+
+    Timothy C. Hoad and Justin Zobel:
+    Methods for Identifying Versioned and Plagiarised Documents
+    see http://www.cs.rmit.edu.au/~jz/fulltext/jasist-tch.pdf
+
+[GlassSchuchert:STL]:
+
+    Graham Glass and Brett Schuchert:
+    The STL
+    Prentice-Hall, 1996
+
+[GoF:DesignPatterns]:
+
+    Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides:
+    Design Patterns: Elements of Reusable Object-Oriented Software
+    Addison-Wesley, 1994
+
+[ISO639:LangCodes]:
+
+    Codes for the Representation of Names of Languages
+    see http://www.loc.gov/standards/iso639-2/php/English_list.php
+
+[ISO3166:CodeTab]:
+
+    ISO 3166-1 decoding table
+    see http://www.iso.org/iso/support/country_codes/iso_3166_code_lists/iso-3166-1_decoding_table.htm
+
+[ISOLatin1]:
+
+    ISO/IEC 8859-1
+    see http://en.wikipedia.org/wiki/ISO_8859-1
+
+[ISOLatin9]:
+
+    ISO/IEC 8859-15
+    see http://en.wikipedia.org/wiki/ISO_8859-15
+
+[JustThread]:
+
+    Anthony Williams:
+    C++ Standard Thread Library
+    see http://www.stdthread.co.uk/
+
+[Karlsson:Boost]:
+
+    Björn Karlsson:
+    Beyond the C++ Standard Library: An Introduction to Boost
+    Addison-Wesley, 2006
+
+[KoenigMoo:Accelerated]:
+
+    Andrew Koenig and Barbara E. Moo:
+    Accelerated C++: Practical Programming by Example
+    Addison-Wesley, 2000
+
+[Meyers:MoreEffective]:
+
+    Scott Meyers:
+    More Effective C++: 35 New Ways to Improve Your Programs and Designs
+    Addison-Wesley, 1996
+
+[Milewski:Atomics]:
+
+    Bartosz Milewski:
+    C++ atomics and memory ordering
+    see http://bartoszmilewski.wordpress.com/2008/12/01
+
+[Milewski:Multicore]:
+
+    Bartosz Milewski:
+    Multicores and Publication Safety
+    see http://bartoszmilewski.wordpress.com/2008/08/04
+
+[MusserSaini:STL]:
+
+    David R. Musser and Atul Saini:
+    STL Tutorial and Reference Guide: C++ Programming with the Standard Template Library
+    Addison-Wesley, 1996
+
+[N1456:HashTable]:
+
+    Matthew Austern:
+    A Proposal to Add Hash Tables to the Standard Library (revision 4)
+    see http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2003/n1456.html
+
+[N2351:SharedPtr]:
+
+    Peter Dimov and Beman Dawes:
+    Improving shared_ptr for C++0x, Revision 2
+    see http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2007/n2351.htm
+
+[N2480:MemMod]:
+
+    Hans-J. Boehm:
+    A Less Formal Explanation of the Proposed C++ Concurrency Memory Model
+    see http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2007/n2480.html
+
+[N2543:FwdList]:
+
+    Matt Austern:
+    STL singly linked lists (revision 3)
+    see http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2008/n2543.htm
+
+[N2661:Chrono]:
+
+    Howard E. Hinnant, Walter E. Brown, Jeff Garland, and Marc Paterno:
+    A Foundation to Sleep On: Clocks, Points in Time, and Time Durations
+    see http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2008/n2661.html
+
+[N3051:DeprExcSpec]:
+
+    Doug Gregor:
+    Deprecating Exception Specifications
+    see http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2010/n3051.html
+
+[N3194:Futures]:
+
+    Lawrence Crowl, Anthony Williams, and Howard Hinnant:
+    Clarifying C++ Futures
+    see http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2010/n3194.htm
+
+[N3198:DeprAdapt]:
+
+    Daniel Krügler:
+    Deprecating unary_function and binary_function (Revision 1)
+    see http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2010/n3198.htm
+
+[N3279:LibNoexcept]:
+
+    Alisdair Meredith and John Lakos:
+    Conservative use of noexcept in the Library
+    see http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2011/n3279.pdf
+
+[Nelson:C++]:
+
+    Mark Nelson:
+    C++ Programmer's Guide to the Standard Template Library
+    IDG Books Worldwide, 1995
+
+[Plauger:C++Lib]:
+
+    P. J. Plauger:
+    The Draft Standard C++ Library
+    Prentice Hall, 1995
+
+[SafeSTL]:
+
+    Cay S. Horstmann:
+    Safe STL
+    see http://www.horstmann.com/safestl.html
+
+[STLport]:
+
+    STLport
+    see http://www.stlport.org/
+
+[Stroustrup:C++]:
+
+    Bjarne Stroustrup:
+    The C++ Programming Language, Third Edition
+    Addison-Wesley, 1997
+
+[Stroustrup:C++0x]:
+
+    Bjarne Stroustrup:
+    What is C++0x?
+    see http://www2.research.att.com/~bs/what-is-2009.pdf
+
+[Stroustrup:Design]:
+
+    Bjarne Stroustrup:
+    The Design and Evolution of C++
+    Addison-Wesley, 1994
+
+[Stroustrup:FAQ]:
+
+    Bjarne Stroustrup:
+    C++11 - the recently approved new ISO C++ standard
+    see http://www.research.att.com/~bs/C++11FAQ.html
+
+[Sutter:LockFree]:
+
+    Herb Sutter:
+    Lock-Free Code: A False Sense of Security
+    see http://drdobbs.com/cpp/210600279
+
+[Teale:C++IO]:
+
+    Steve Teale:
+    C++ IOStreams Handbook
+    Addison-Wesley, 1993
+
+[UTF8]:
+
+    UTF-8
+    see http://en.wikipedia.org/wiki/UTF-8
+
+[VisualC++Locales]:
+
+    Visual C++ Language and Country/Region Strings
+    see http://msdn.microsoft.com/en-us/library/hzz3tw78.aspx
+
+[Williams:C++Conc]:
+
+    Anthony Williams:
+    C++ Concurrency in Action: Practical Multithreading
+    Manning, 2012
+
+[Williams:CondVar]:
+
+    Anthony Williams:
+    Multithreading and Concurrency: Condition Variable Spurious Wakes
+    see http://www.justsoftwaresolutions.co.uk/threading/?page=2
+
+
