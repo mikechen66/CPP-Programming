@@ -29,4 +29,6 @@ http://www.staroceans.org/e-book/ATourofC%2B%2B.pdf
 
 https://www.cplusplus.com/
 
+https://www.cplusplus.com/doc/tutorial/pointers/
+
 https://people.sc.fsu.edu/~jburkardt/cpp_src/cpp_src.html
