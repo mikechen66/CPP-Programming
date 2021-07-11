@@ -53,6 +53,10 @@ ISO
 
 https://isocpp.org/std/standing-documents/sd-8-standard-library-compatibility
 
+Classcial C++ Applications 
+
+https://www.stroustrup.com/applications.html
+
 Wiki
 
 https://en.wikipedia.org/wiki/C%2B%2B_Standard_Library
