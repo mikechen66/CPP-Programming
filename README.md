@@ -19,6 +19,8 @@ Please have a look at the varieties of resources as follows.
 
 https://www.cplusplus.com/doc/tutorial/
 
+https://gcc.gnu.org/projects/cxx-status.html
+
 https://docs.microsoft.com/en-us/cpp/?view=msvc-160
 
 https://www.stroustrup.com/applications.html
