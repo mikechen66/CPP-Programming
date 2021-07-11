@@ -40,6 +40,8 @@ Type traits and type utilities
 
 ## Resources
 
+Please have a look at the varieties of resources as follows.
+
 https://www.amazon.com/Standard-Library-Tutorial-Reference-2nd/dp/0321623215
 
 https://www.cplusplus.com/doc/tutorial/
