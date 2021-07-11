@@ -8,10 +8,6 @@ lightweight abstractions. It is particularly suited for resource-constrained app
 such as those found in software infrastructures. C++ rewards the programmer who takes the 
 time to master techniques for writing quality code.
 
-https://github.com/fatih-iver/The-C-Plus-Plus-Programming-Language
-
-https://github.com/Raj-kar/C-Plus-Plus
-
 ## Target 
 
 This book is aimed at three audiences: C++ programmers who want to know what the latest ISO 
@@ -30,6 +26,12 @@ C++ has been on a three-year release schedule with C++23 as the next planned sta
 ## Resources
 
 Please have a look at the varieties of resources as follows.
+
+Code Reference
+
+https://github.com/fatih-iver/The-C-Plus-Plus-Programming-Language
+
+https://github.com/Raj-kar/C-Plus-Plus
 
 Book Introduction
 
