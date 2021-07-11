@@ -40,3 +40,5 @@ https://sourceforge.net/projects/stlport/
 https://www.stroustrup.com/applications.html
 
 https://en.wikipedia.org/wiki/C%2B%2B_Standard_Library
+
+https://channel9.msdn.com/Events/CPP/CppCon-2016/CppCon-2016-Bjarne-Stroustrup-The-Evolution-of-C-Past-Present-and-Future
