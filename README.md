@@ -15,6 +15,10 @@ C++ was designed with an orientation toward system programming and embedded, res
 
 ## Resources 
 
+Please have a look at the varieties of resources as follows.
+
 https://www.cplusplus.com/doc/tutorial/
+
+https://docs.microsoft.com/en-us/cpp/?view=msvc-160
 
 https://www.stroustrup.com/applications.html
