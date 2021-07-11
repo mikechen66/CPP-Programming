@@ -12,3 +12,9 @@ C++ is standardized by the ISO with the latest standard version ratified and pub
 ## High Performance 
 
 C++ was designed with an orientation toward system programming and embedded, resource-constrained software and large systems, with performance, efficiency, and flexibility of use as its design highlights. C++ has also been found quite useful in the performance-critical fields of system application, database, GPU-enabled deep learning, graphics design, search engine, e-commerce, financial transaction and video games. 
+
+## Resources 
+
+https://www.cplusplus.com/doc/tutorial/
+
+https://www.stroustrup.com/applications.html
