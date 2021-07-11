@@ -15,3 +15,5 @@ techniques supported by C++ templates ranging from near-trivial ideas to sophist
 ## Resources
 
 https://github.com/apache/stdcxx/tree/trunk/src
+
+https://github.com/mlivesu/cinolib
