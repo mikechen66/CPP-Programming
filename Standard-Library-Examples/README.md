@@ -37,3 +37,12 @@ New STL containers, such as arrays, forward lists, and unordered containers
 New STL algorithms
 Tuples
 Type traits and type utilities
+
+## Resources
+
+https://www.amazon.com/Standard-Library-Tutorial-Reference-2nd/dp/0321623215
+
+https://www.cplusplus.com/doc/tutorial/
+
+https://libcxx.llvm.org/
+
