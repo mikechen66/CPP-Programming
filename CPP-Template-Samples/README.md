@@ -19,3 +19,5 @@ https://github.com/apache/stdcxx/tree/trunk/src
 https://github.com/RainerGrimm/Cpp20
 
 https://github.com/mlivesu/cinolib
+
+https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
