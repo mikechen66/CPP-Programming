@@ -1,13 +1,17 @@
 ## C++ Templates 
 David Vandevoorde, Nicolai M. Josuttis, Douglas Gregor
 
+## Introduction 
 The materials provide the information necessary to start using templates and benefit from their power,
 as well as to provide information that will enable experienced programmers to push the limits of the
-state-of-the-art. To achieve this, we decided to organize our text in parts:
+state-of-the-art. 
 
-Part I introduces the basic concepts underlying templates written in a tutorial style.
+## Contents
 
-Part II presents the language details and is a handy reference to template-related constructs.
+Describe the basic concepts underlying templates written in a tutorial style; present the language 
+details and is a handy reference to template-related constructs; explains fundamental design and coding 
+techniques supported by C++ templates ranging from near-trivial ideas to sophisticated idioms.
 
-Part III explains fundamental design and coding techniques supported by C++ templates. They
-range from near-trivial ideas to sophisticated idioms.
+## Resources
+
+https://github.com/apache/stdcxx/tree/trunk/src
