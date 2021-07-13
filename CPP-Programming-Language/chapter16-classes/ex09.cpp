@@ -1,6 +1,6 @@
 #include <iostream>
 
-namespace ch16 {
+namespace classes {
     class Object {};
 
     class Container : public Object {
@@ -32,10 +32,10 @@ namespace ch16 {
     };
 
     void Vector::put(Object* o) {
-        if(sz == capacity) {
+        if (sz == capacity) {
             capacity *= 2;
             Object** newArr = new Object*[capacity];
-            for(size_t i = 0; i < sz; i++) 
+            for (size_t i = 0; i < sz; i++) 
                 newArr[i] = elements[i];
             delete[] elements;
             elements = newArr;
@@ -53,7 +53,7 @@ namespace ch16 {
     public:
         List() : head(0) {}
         ~List() { while(head) { Link* tmp = head; head = head->next; delete tmp; } }
-        Object* get() { if(!head) return 0; Object* ret = head->o; Link* tmp = head; head = head->next; delete tmp; return ret; }
+        Object* get() { if (!head) return 0; Object* ret = head->o; Link* tmp = head; head = head->next; delete tmp; return ret; }
         void put(Object* o) { head = new Link(o, head); }
     };
 
@@ -65,7 +65,7 @@ namespace ch16 {
 }
 
 int main() {
-    using namespace ch16;
+    using namespace classes;
     using namespace std;
 
     Something o1(0);
