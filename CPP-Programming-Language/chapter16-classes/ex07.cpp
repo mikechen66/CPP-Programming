@@ -1,6 +1,6 @@
 #include <iostream>
 
-namespace ch16 {
+namespace classes {
     // I already implemented a complete Vector class in the previous chapter and don't
     // really feel like doing the same thing agian, so I will only cover the functions
     // explicitly mentioned in 16.2.1.
@@ -57,7 +57,7 @@ namespace ch16 {
 }
 
 int main() {
-    using namespace ch16;
+    using namespace classes;
     using namespace std;
 
     Vector<int> v(5);
