@@ -2,7 +2,7 @@
 #include <vector>
 #include <time.h>
 
-namespace ch16 {
+namespace classes {
     class Object {};
 
     class Container : public Object {
@@ -61,7 +61,7 @@ namespace ch16 {
 }
 
 int main() {
-    using namespace ch16;
+    using namespace classes;
     using namespace std;
 
     IntHolder numbers[3];

@@ -2,7 +2,7 @@
 #include <limits>
 #include <QtCore/QVector>
 
-namespace ch16 {
+namespace classes {
     // Compile with:
     // g++ -I/usr/include/qt4 -o ex14 ex14.cpp -lQtCore
     //
@@ -220,7 +220,7 @@ namespace ch16 {
 
 int main() {
     using namespace std;
-    using namespace ch16;
+    using namespace classes;
 
     Vector<int> v;
     v.push_back(1);

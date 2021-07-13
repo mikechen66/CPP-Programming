@@ -1,14 +1,14 @@
 #include <iostream>
 
-namespace ch16 {   
-    template<class T> class Vector_16_2_1 {
+namespace classes {   
+    template<class T> class Vector_classes_1 {
         static const int DefaultCapacity = 16;
         size_t sz;
         size_t capacity;
         T* elements;
     public:
-        explicit Vector_16_2_1() : sz(0), capacity(DefaultCapacity), elements(new T[DefaultCapacity]) {}
-        ~Vector_16_2_1() { delete[] elements; }
+        explicit Vector_classes_1() : sz(0), capacity(DefaultCapacity), elements(new T[DefaultCapacity]) {}
+        ~Vector_classes_1() { delete[] elements; }
         void push_back(T x);
         T pop_back() { return elements[--sz]; }
         T& operator[](int idx) { return elements[idx]; }
@@ -16,7 +16,7 @@ namespace ch16 {
     };
 
     template<class T>
-    void Vector_16_2_1<T>::push_back(T x) {
+    void Vector_classes_1<T>::push_back(T x) {
         if (sz == capacity) {
             capacity *= 2;
             T* newArr = new T[capacity];
@@ -50,8 +50,8 @@ namespace ch16 {
             T value() { return x; }
         };
 
-        Vector_16_2_1<T>& v;
-        VectorWrapper(Vector_16_2_1<T>& v) : v(v) {}
+        Vector_classes_1<T>& v;
+        VectorWrapper(Vector_classes_1<T>& v) : v(v) {}
 
         Object* get() { return v.size() > 0 ? new Holder(v.pop_back()) : 0; }
         void put(Holder* h) {v.push_back(h->value());}
@@ -64,9 +64,9 @@ namespace ch16 {
 
 int main() {
     using namespace std;
-    using namespace ch16;
+    using namespace classes;
 
-    Vector_16_2_1<int> v;
+    Vector_classes_1<int> v;
     VectorWrapper<int> vw(v);
     vw.put(new VectorWrapper<int>::Holder(3));
     vw.put(new VectorWrapper<int>::Holder(2));
