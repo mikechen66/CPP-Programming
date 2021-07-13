@@ -16,7 +16,7 @@
 //
 // The 16.2.2 implementation used by far the most memory because of the
 // necessity of the Object base.
-namespace ch16_2_1 {
+namespace classes_1 {
     template<class T> class Vector {
         T* elements;
         size_t sz;
@@ -47,7 +47,7 @@ namespace ch16_2_1 {
     };
 }
 
-namespace ch16_2_2 {
+namespace classes_2 {
     class Object {};
 
     class Container : public Object {
@@ -121,17 +121,17 @@ int main() {
 
     timespec start,end;
     vector<int> v;
-    ch16_2_1::Vector<int> v1621(NumberOfElements);
-    ch16_2_2::Vector v1622;
+    classes_1::Vector<int> v1621(NumberOfElements);
+    classes_2::Vector v1622;
 
-    ch16_2_2::IntHolder* numbersFor1622;
-    numbersFor1622 = new ch16_2_2::IntHolder[NumberOfElements];
+    classes_2::IntHolder* numbersFor1622;
+    numbersFor1622 = new classes_2::IntHolder[NumberOfElements];
 
     for (int i = 0; i < NumberOfElements; i++) {
         int n = rand() % 1024;
         v.push_back(n);
         v1621[i] = n;
-        numbersFor1622[i] = ch16_2_2::IntHolder(n);
+        numbersFor1622[i] = classes_2::IntHolder(n);
         v1622.put(&numbersFor1622[i]);
     }
 
@@ -155,10 +155,10 @@ int main() {
     cout << "memory used (est): " << sizeof(std::vector<int>) + sizeof(int)*v.size() << endl; // may not represent the full size.
     cout << endl;
 
-    cout << "Vector from 16.2.1" << endl;
+    cout << "Vector from classes_1" << endl;
     num = 0;
     clock_gettime(CLOCK_REALTIME, &start);
-    ch16_2_1::Vector_itor<int> i1621(v1621);
+    classes_1::Vector_itor<int> i1621(v1621);
     num = v1621[0];
     int* next;
     while (next = i1621.next())
@@ -177,12 +177,12 @@ int main() {
     cout << "memory used: " << v1621.get_mem_usage() << endl;
     cout << endl;
 
-    cout << "Vector from 16.2.2" << endl;
+    cout << "Vector from classes_2" << endl;
     num = 0;
-    int mem = v1622.get_mem_usage() + v.size()*sizeof(ch16_2_2::IntHolder);
+    int mem = v1622.get_mem_usage() + v.size()*sizeof(classes_2::IntHolder);
     clock_gettime(CLOCK_REALTIME, &start);
-    while (ch16_2_2::Object* o = v1622.get()) {
-        ch16_2_2::IntHolder* i = static_cast<ch16_2_2::IntHolder*>(o);
+    while (classes_2::Object* o = v1622.get()) {
+        classes_2::IntHolder* i = static_cast<classes_2::IntHolder*>(o);
         num += i -> x;
     }
     num /= v.size();
@@ -200,16 +200,16 @@ int main() {
 $g++ -o main *.cpp
 $main
 std::vector
-iterator time: 346626 mean = 508.987
-for-loop time: 83362 mean = 508.987
+iterator time: 483176 mean = 508.987
+for-loop time: 125514 mean = 508.987
 memory used (est): 40024
 
-Vector from 16.2.1
-iterator time: 121818 mean = 508.987
-for-loop time: 95965 mean = 508.987
+Vector from classes_1
+iterator time: 201512 mean = 508.987
+for-loop time: 94603 mean = 508.987
 memory used: 40016
 
-Vector from 16.2.2
-for-loop time: 111462 mean = 508.987
+Vector from classes_2
+for-loop time: 98685 mean = 508.987
 memory used: 120032
  */
