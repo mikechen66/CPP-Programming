@@ -1,13 +1,22 @@
-Modern Operating System
+# C++ with Data structure 
 
-Modern Operating Systems is a popular book across the globe and includes the fundamentals of an operating system with small amounts of code written in autonomous C language. It describes many scheduling algorithms. This article about a computer book or series of books is a stub. Prof. Tanenbaum is best known as the author of MINIX, a free Unix-like operating system for teaching purposes, and for his computer science textbooks, regarded as standard texts in the field. It was the direct inspiration for Linux and the platform on which Linux was initially developed. The current version of MINIX, called MINIX 3, is now focused on being an extremely reliable and secure operating system. Go to the minix3 website to download a free copy and find out what is happening.
+## Introduction
 
-www.minix3.org
+It is an introductory book that describes data structures and algorithms, 
+and strives to be concise, rigorous and easy to learn and master.
 
-https://en.wikipedia.org/wiki/Andrew_S._Tanenbaum
+## Content
 
-https://en.wikipedia.org/wiki/Minix
+It begins with an introduction to the relationship between computational 
+thinking and programming, and talks about the 4 parts of how to cultivate 
+computational thinking: decomposition, pattern recognition, pattern 
+generalization and abstraction and algorithms.
 
-http://index-of.es/Varios-2/Modern%20Operating%20Systems%204th%20Edition.pdf
+## Classical Algorithms
 
-https://cacm.acm.org/magazines/2016/3/198874-lessons-learned-from-30-years-of-minix/fulltext
+It elaborates the classification of classic algorithms: divide and conquer 
+method, recursion method, dynamic programming method, iterative method, 
+enumeration method, backtracking method and greedy method. It includes 
+sorting algorithms, search algorithms, array and linked list algorithms, 
+security algorithms, stack and queue algorithms, tree graph structures 
+algorithms. 
