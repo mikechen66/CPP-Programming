@@ -1,4 +1,4 @@
-# C++ with Data structure 
+# Data structure with C++
 
 ## Introduction
 
