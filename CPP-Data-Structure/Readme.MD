@@ -2,7 +2,7 @@
 
 ## Introduction
 
-It is an introductory book that describes data structures and algorithms, 
+It includes popular examples that describes data structures and algorithms, 
 and strives to be concise, rigorous and easy to learn and master.
 
 ## Content
