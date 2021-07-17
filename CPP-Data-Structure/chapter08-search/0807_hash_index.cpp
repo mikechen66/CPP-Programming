@@ -52,7 +52,7 @@ int main(void) {
         }
         i=findnum(num);
 
-        if(i==0) {
+        if (i==0) {
             cout<<"#####Do not find it "<<num<<" #####"<<endl;
         } else {
             cout<<"Find out it "<<num<<"£¬totally find out  "<<i<<" times!"<<endl;
@@ -61,7 +61,7 @@ int main(void) {
 
     cout<<"\nHash Table"<<endl;
 
-    for(i=0;i<INDEXBOX;i++)
+    for (i=0;i<INDEXBOX;i++)
         print_data(i);
     cout<<endl;
     return 0;
