@@ -11,8 +11,8 @@ using namespace std;
 class Node {
     public:
     int value;
-    struct Node *left_Node;          /* The ptr points to the left child tree */
-    struct Node *right_Node;         /* The ptr points to the right child tree */
+        struct Node *left_Node;      /* The ptr points to the left child tree */
+        struct Node *right_Node;     /* The ptr points to the right child tree */
 };
 
 typedef class Node TreeNode;         /* Define the new data type for the node */

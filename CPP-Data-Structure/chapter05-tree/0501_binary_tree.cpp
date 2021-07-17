@@ -6,8 +6,8 @@ using namespace std;
 
 class tree {  
     public:
-    int data;                              /* the data of the node */
-    class tree *left, *right;              /* the left and right pointer of the node */
+        int data;                          /* the data of the node */
+        class tree *left, *right;          /* the left and right pointer of the node */
 };
 
 typedef class tree node;

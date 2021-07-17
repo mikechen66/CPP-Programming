@@ -7,8 +7,8 @@ using namespace std;
 
 class tree {  
     public :
-    int data; 
-    class tree *left,*right; 
+        int data; 
+        class tree *left,*right; 
 };
 
 typedef class tree node;

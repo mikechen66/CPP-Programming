@@ -8,11 +8,11 @@ using namespace std;
 
 class Node {
     public:
-    int value;
-    int left_Thread;
-    int right_Thread;
-    class Node *left_Node;
-    class Node *right_Node;
+        int value;
+        int left_Thread;
+        int right_Thread;
+        class Node *left_Node;
+        class Node *right_Node;
 };
 
 typedef class Node ThreadNode;
@@ -126,7 +126,7 @@ int main(void) {
     cout<<"In-order sorting for a better effect"<<endl;
     cout<<"The first digit, as a starting node, is not sorted"<<endl;
     int data1[] = {0,10,20,30,100,399,453,43,237,373,655};
-    for(i=0; i<array_size; i++)
+    for (i=0; i<array_size; i++)
         Add_Node_To_Tree(data1[i]);
     cout<<"===================================="<<endl;
     cout<<"Case 1 "<<endl;
@@ -135,7 +135,7 @@ int main(void) {
     int data2[] = {0,101,118,87,12,765,65};
     rootNode = NULL;
     array_size = 7;
-    for(i=0; i<array_size; i++)
+    for (i=0; i<array_size; i++)
         Add_Node_To_Tree(data2[i]);    
     cout<<"===================================="<<endl;
     cout<<"Case 2 "<<endl;

@@ -5,9 +5,9 @@ using namespace std;
 
 class Node {                                            /* Declare Node as a calss */
     public:
-    int value;
-    class Node *left_Node;                              /* The ptr points to left child tree */
-    class Node *right_Node;                             /* The ptr points to right child tree */
+        int value;
+        class Node *left_Node;                          /* The ptr points to left child tree */
+        class Node *right_Node;                         /* The ptr points to right child tree */
 };
 
 typedef class Node TreeNode;                            /* Define a new TreeNode */
