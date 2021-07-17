@@ -7,9 +7,9 @@
 
 using namespace std;
 class Node {  
-   public:
-   int data;    
-   class Node *next;               /* The stack points to the pointer at the next node */
+    public:
+        int data;    
+        class Node *next;           /* The stack points to the pointer at the next node */
 };
 
 typedef class Node Stack_Node;     /* Define new types in the nodes of the stack */
@@ -35,7 +35,7 @@ int pop() {
     Linked_Stack ptr;              /* The ptr that points to the top of the stack */
     int temp;
     if (isEmpty()) {                /* If the stack is empty, it return -1 */
-       cout<<"===It is an empty stack at present==="<<endl;
+        cout<<"===It is an empty stack at present==="<<endl;
         return -1;
     } else {
         ptr=top;                   /* Point to the top of the stack */
@@ -54,11 +54,10 @@ int main(void) {
         cin>>value;
         push(value);
     }
-    cout<<"===================="<<endl;
+    cout<<"====================================="<<endl;
     while (!isEmpty())              
         cout<<"The pop-up order is: "<<setw(2)<<pop()<<endl; 
-    cout<<"===================="<<endl;
-    system("pause");      
+    cout<<"====================================="<<endl;     
     return 0; 
 }
 
@@ -66,5 +65,19 @@ int main(void) {
 /* Output */
 
 /* 
+$g++ -o main *.cpp
+$main
 Please input 10 data items in order: 
+=====================================
+The pop-up order is: 4196496
+The pop-up order is: 4196496
+The pop-up order is: 4196496
+The pop-up order is: 4196496
+The pop-up order is: 4196496
+The pop-up order is: 4196496
+The pop-up order is: 4196496
+The pop-up order is: 4196496
+The pop-up order is: 4196496
+The pop-up order is: 4196496
+===================================== 
  */ 
