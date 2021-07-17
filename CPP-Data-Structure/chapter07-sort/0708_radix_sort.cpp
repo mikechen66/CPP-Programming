@@ -1,5 +1,5 @@
 
-/* Cardinal Sorting */
+/* radix sort */
 
 #include <iostream>
 #include <iomanip>
