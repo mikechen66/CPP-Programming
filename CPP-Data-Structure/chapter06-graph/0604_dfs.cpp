@@ -6,8 +6,8 @@ using namespace std;
 
 class list {  
     public:
-    int val;
-    class list *next;
+        int val;
+        class list *next;
 };
 
 typedef class list node;

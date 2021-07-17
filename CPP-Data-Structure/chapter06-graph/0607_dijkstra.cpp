@@ -17,9 +17,9 @@ void BuildGraph_Matrix(int *Path_Cost) {
     int Start_Point;     
     int End_Point;       
     int i, j;
-    for (i = 1; i < SIZE; i++)
-        for (j = 1; j < SIZE; j++)
-            if (i == j)
+    for (i=1; i<SIZE; i++)
+        for (j=1; j<SIZE; j++)
+            if (i==j)
                 Graph_Matrix[i][j] = 0;                /* Set the diagonl as 0 */
             else
                 Graph_Matrix[i][j] = INFINITE;   
@@ -34,7 +34,7 @@ void BuildGraph_Matrix(int *Path_Cost) {
 
 void printGraph_Matrix() {
     int i, j;
-    for (i=1; i < SIZE; i++) {
+    for (i=1; i<SIZE; i++) {
         cout<<"vex"<<i;
         for (j=1; j<SIZE; j++)
             if (Graph_Matrix[i][j] == INFINITE)
@@ -52,7 +52,7 @@ void shortestPath(int vertex1, int vertex_total) {    /* shortest path between a
     int goal[SIZE];                                   /* Record whether it is selected */  
     int i,j;
     
-    for (i = 1; i <= vertex_total; i++) { 
+    for (i=1; i<= vertex_total; i++) { 
         goal[i] = 0;    
         distance[i] = Graph_Matrix[vertex1][i]; 
     }

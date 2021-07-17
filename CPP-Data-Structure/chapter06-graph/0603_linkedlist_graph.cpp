@@ -6,8 +6,8 @@ using namespace std;
 
 class list {
     public:
-    int val;
-    class list *next;
+        int val;
+        class list *next;
 };
 
 class list head[6];                              /* Declare a node-type array */
@@ -52,4 +52,3 @@ Vertice3 =>[2] [4] [5]
 Vertice4 =>[2] [3] [5] 
 Vertice5 =>[1] [3] [4] 
  */
-

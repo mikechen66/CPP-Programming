@@ -7,9 +7,9 @@ using namespace std;
 
 class edge {  
     public:
-    int from,to;
-    int find,val;
-    class edge* next;
+        int from,to;
+        int find,val;
+        class edge* next;
 };
 
 typedef class edge node;
@@ -28,8 +28,8 @@ int main(void) {
 
     cout<<"Create the graph's linked list£º"<<endl;
 
-    for (int i=0;i<10;i++) {  
-        for (int j=1;j<=VERTS;j++) {  
+    for (int i=0; i<10; i++) {  
+        for (int j=1; j<=VERTS; j++) {  
             if (data[i][0]==j) {  
                 newnode = new node;
                 newnode->from=data[i][0];
