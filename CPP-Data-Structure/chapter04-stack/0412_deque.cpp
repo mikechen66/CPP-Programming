@@ -8,9 +8,9 @@
 using namespace std;
 
 class Node {
-   public:
-   int data;
-   class Node *next;
+    public:
+        int data;
+        class Node *next;
 };
 
 typedef class Node QueueNode;
@@ -65,7 +65,7 @@ int dequeue(int action) {
 int main(void) {
     int temp;
     cout<<"Implement the dequeue with linkedlist "<<endl;
-    cout<<"===================================="<<endl;
+    cout<<"=================================================================="<<endl;
     cout<<"Please add the 1st data item valuing 1 in the front of the dequeue"<<endl;
     enqueue(1);
     cout<<"Please add the 2nd data item valuing 3 in the front of the dequeue"<<endl;
@@ -76,17 +76,17 @@ int main(void) {
     enqueue(7);
     cout<<"Please add the 5th data item valuing 9 in the front of the dequeue"<<endl;
     enqueue(9);
-    cout<<"===================================="<<endl;
+    cout<<"=================================================================="<<endl;
     temp=dequeue(1);
     cout<<"The value to be taken out of the front of the dequeue is: "<<setw(1)<<temp<<endl;
     temp=dequeue(2);
-    cout<<"The value to be taken out of the front of the dequeue is£º"<<setw(1)<<temp<<endl;
+    cout<<"The value to be taken out of the front of the dequeue is: "<<setw(1)<<temp<<endl;
     temp=dequeue(1);
-    cout<<"The value to be taken out of the front of the dequeue is£º"<<setw(1)<<temp<<endl;
+    cout<<"The value to be taken out of the front of the dequeue is: "<<setw(1)<<temp<<endl;
     temp=dequeue(2);
-    cout<<"The value to be taken out of the front of the dequeue is£º"<<setw(1)<<temp<<endl;
+    cout<<"The value to be taken out of the front of the dequeue is: "<<setw(1)<<temp<<endl;
     temp=dequeue(1);
-    cout<<"The value to be taken out of the front of the dequeue is£º"<<setw(1)<<temp<<endl;
+    cout<<"The value to be taken out of the front of the dequeue is: "<<setw(1)<<temp<<endl;
     cout<<endl;
     return 0;
 }
@@ -95,14 +95,17 @@ int main(void) {
 /* Output */
 
 /*
-Please input a value to access to a queue£¬input -2 to take out of the value (End with inputting -1): 18
-Please input a value to access to a queue£¬input -2 to take out of the value (End with inputting -1): 21
-Please input a value to access to a queue£¬input -2 to take out of the value (End with inputting -1): 24
-Please input a value to access to a queue£¬input -2 to take out of the value (End with inputting -1): 27
-Please input a value to access to a queue£¬input -2 to take out of the value (End with inputting -1): 30
-Please input a value to access to a queue£¬input -2 to take out of the value (End with inputting -1): 33
-[The queue is full]
-
-The remained data item in the queue: 
-[18][21][24][27][30]
+Implement the dequeue with linkedlist 
+==================================================================
+Please add the 1st data item valuing 1 in the front of the dequeue
+Please add the 2nd data item valuing 3 in the front of the dequeue
+Please add the 3rd data item valuing 5 in the front of the dequeue
+Please add the 4th data item valuing 7 in the front of the dequeue
+Please add the 5th data item valuing 9 in the front of the dequeue
+==================================================================
+The value to be taken out of the front of the dequeue is: 1
+The value to be taken out of the front of the dequeue is: 9
+The value to be taken out of the front of the dequeue is: 3
+The value to be taken out of the front of the dequeue is: 7
+The value to be taken out of the front of the dequeue is: 5
  */
