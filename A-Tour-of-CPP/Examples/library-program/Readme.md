@@ -1,4 +1,4 @@
-# The Example of Book Program
+# Design and Implenting the Library Application 
 Bjarne Stroustrup
 
 ## General Requirement
