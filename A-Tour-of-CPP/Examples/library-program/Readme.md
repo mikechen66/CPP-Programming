@@ -1,4 +1,4 @@
-# Design and Implenting the Library Application 
+# Design and Implement the Library Application 
 Bjarne Stroustrup
 
 ## General Requirement
