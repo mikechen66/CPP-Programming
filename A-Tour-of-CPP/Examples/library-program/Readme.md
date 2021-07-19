@@ -10,7 +10,7 @@ Principles and Practice Using C++ 2nd Edition.
 
 ## Requiremments for Specific Components
 
-### The class of Book should have members for the ISBN, title, author, and 
+1. The class of Book should have members for the ISBN, title, author, and 
 copyright date. Also store data on whether or not the book is checked out. 
 Create functions for returning those data values. Create functions for 
 checking a book in and out. Do simple validation of data entered into a 
