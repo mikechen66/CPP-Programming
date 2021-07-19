@@ -6,7 +6,9 @@ Bjarne Stroustrup
 The exercise require you to design and implement a Money class for 
 calculations involving dollars and cents where arithmetic has to 
 be accurate to the last cent using the 4/5 rounding rule (.5 of a 
-cent rounds up; anything less than .5 rounds down). 
+cent rounds up; anything less than .5 rounds down). It is originally 
+No.14 ~ No.16 questions in the 9th Chapter, Porogramming Principles 
+and Practice Using C++ 2nd Edition.
 
 ## Requiremments for Specific Components
 
