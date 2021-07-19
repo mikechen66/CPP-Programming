@@ -1,4 +1,4 @@
-# Supplements - Vector, Container and Algorithm
+# Container
 
 ## Introduction
 
@@ -7,7 +7,6 @@ The C++ standard library provides a framework for dealing with data as sequences
 ## Container
 
 A container is a holder object that stores a collection of other objects (its elements). They are implemented as class templates, which allows a great flexibility in the types supported as elements. The container manages the storage space for its elements and provides member functions to access them, either directly or through iterators (reference objects with similar properties to pointers). The C++ containers include vector, list, deque, map, multimap, unordered_map, unordered_multimap, set, multiset, unordered_set, unordered_multiset and array. 
-
 
 Container:
 
