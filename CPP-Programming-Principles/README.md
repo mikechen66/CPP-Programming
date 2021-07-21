@@ -31,6 +31,8 @@ C++ Standard Library
 
 https://en.cppreference.com/w/cpp/header
 
+Standard Book for C++
+
 https://www.mica.edu.vn/perso/Vu-Hai/EE3490/Ref/The%20C++Standard%20Library%20-%202nd%20Edition.pdf
 
 Reference:
