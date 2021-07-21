@@ -35,6 +35,8 @@ https://usermanual.wiki/Document/libstdc2B2Bmanual.2079572416/view
 
 https://gcc.gnu.org/onlinedocs/libstdc++/
 
+https://gcc.gnu.org/projects/cxx-status.html#cxx23
+
 Others: 
 
 https://www.cplusplus.com/doc/tutorial/
