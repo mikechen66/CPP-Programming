@@ -17,7 +17,7 @@ C++ was designed with an orientation toward system programming and embedded, res
 
 ## GCC libstd++ v3 
 
-GCC provide the source code of [the library of libstdc++ v3](https://github.com/gcc-mirror/gcc/tree/master/libstdc%2B%2B-v3/src) at github. It includes C++11, C++17, C++20 and C++98, filesysterm, shared, etc. Besides, it has the weblink of [GCC mirror sites](https://gcc.gnu.org/mirrors.html), for instance, the site of San Francisco is listed as [San Francisco Mirror] (https://bigsearcher.com/mirrors/gcc/). Readers can take both of them for reference. 
+GCC provide the source code of [the library of libstdc++ v3](https://github.com/gcc-mirror/gcc/tree/master/libstdc%2B%2B-v3/src) at github. It includes C++11, C++17, C++20 and C++98, filesysterm, shared, etc. Besides, it has the weblink of [GCC mirror sites](https://gcc.gnu.org/mirrors.html), for instance, the site of San Francisco is listed as [San Francisco Mirror](https://bigsearcher.com/mirrors/gcc/). Readers can take both of them for reference. 
 
 ## Resources 
 
