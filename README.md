@@ -18,14 +18,15 @@ C++ was designed with an orientation toward system programming and embedded, res
 ## GNU C Library (glibc)
 
 Download sources (
-The code will be doanloaded into the directory of /home/user with Ubuntu. 
+The code (with the size of 219 MB) will be doanloaded into the directory of /home/user with Ubuntu. 
 
 Checkout the latest glibc in development:
 
-git clone https://sourceware.org/git/glibc.git
+    git clone https://sourceware.org/git/glibc.git
     cd glibc
     git checkout master
-    Releases are available by source branch checkout (gitweb) and tarball via ftp.
+    
+Releases are available by source branch checkout (gitweb) and tarball via ftp.
 
 Checkout the latest glibc 2.33 stable release:
 
@@ -34,6 +35,7 @@ Checkout the latest glibc 2.33 stable release:
     git checkout release/2.33/master
     
 Release tarballs are available via anonymous ftp at http://ftp.gnu.org/gnu/glibc/ and its mirrors.
+
 
 ## Resources 
 
