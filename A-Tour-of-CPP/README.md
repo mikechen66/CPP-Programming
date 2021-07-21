@@ -32,3 +32,5 @@ https://www.cplusplus.com/
 https://www.cplusplus.com/doc/tutorial/pointers/
 
 https://people.sc.fsu.edu/~jburkardt/cpp_src/cpp_src.html
+
+https://www.mica.edu.vn/perso/Vu-Hai/EE3490/Ref/The%20C++Standard%20Library%20-%202nd%20Edition.pdf
