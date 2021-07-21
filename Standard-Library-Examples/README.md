@@ -48,3 +48,5 @@ https://www.cplusplus.com/doc/tutorial/
 
 https://libcxx.llvm.org/
 
+https://www.mica.edu.vn/perso/Vu-Hai/EE3490/Ref/The%20C++Standard%20Library%20-%202nd%20Edition.pdf
+
