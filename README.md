@@ -29,6 +29,8 @@ Please have a look at the varieties of resources as follows.
 
 ## Source Code (Github)
 
+Some of the source code are listed in the Github. So users can directlt click the following files to access to the source code C++. 
+
 [GCC C++ source code](https://github.com/gcc-mirror/gcc/tree/master/libstdc%2B%2B-v3/libsupc%2B%2B)
 
 [Google C++ source code 2012](https://github.com/google/libcxx/tree/master/src)
@@ -40,7 +42,10 @@ Please have a look at the varieties of resources as follows.
 
 ## Resources 
 
+The resources includes source code in the related weblinks. In addition, other materials are provided for further reference. 
+
 Source Code:
+
 GNU CXX Projects: 
 
 https://gcc.gnu.org/projects/cxx-status.html
