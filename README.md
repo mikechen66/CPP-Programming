@@ -15,28 +15,6 @@ C++ is standardized by the ISO with the latest standard version ratified and pub
 C++ was designed with an orientation toward system programming and embedded, resource-constrained software and large systems, with performance, efficiency, and flexibility of use as its design highlights. C++ has also been found quite useful in the performance-critical fields of system application, database, GPU-enabled deep learning, graphics design, search engine, e-commerce, financial transaction and video games. 
 
 
-## GNU C Library (glibc)
-
-Download sources (
-The code (with the size of 219 MB) will be doanloaded into the directory of /home/user with Ubuntu. 
-
-Checkout the latest glibc in development:
-
-    git clone https://sourceware.org/git/glibc.git
-    cd glibc
-    git checkout master
-    
-Releases are available by source branch checkout (gitweb) and tarball via ftp.
-
-Checkout the latest glibc 2.33 stable release:
-
-    git clone https://sourceware.org/git/glibc.git
-    cd glibc
-    git checkout release/2.33/master
-    
-Release tarballs are available via anonymous ftp at http://ftp.gnu.org/gnu/glibc/ and its mirrors.
-
-
 ## Resources 
 
 Please have a look at the varieties of resources as follows.
@@ -50,6 +28,12 @@ https://github.com/apache/stdcxx/tree/trunk/src
 https://github.com/microsoft/STL
 
 https://gcc.gnu.org/projects/cxx-status.html
+
+GNU C++ Library Manual and Source Code (2018)
+
+https://usermanual.wiki/Document/libstdc2B2Bmanual.2079572416/view
+
+https://gcc.gnu.org/onlinedocs/libstdc++/
 
 Others: 
 
