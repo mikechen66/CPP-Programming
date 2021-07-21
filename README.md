@@ -15,6 +15,10 @@ C++ is standardized by the ISO with the latest standard version ratified and pub
 C++ was designed with an orientation toward system programming and embedded, resource-constrained software and large systems, with performance, efficiency, and flexibility of use as its design highlights. C++ has also been found quite useful in the performance-critical fields of system application, database, GPU-enabled deep learning, graphics design, search engine, e-commerce, financial transaction and video games. 
 
 
+## GCC libstd++ v3 (C++11)
+
+https://github.com/gcc-mirror/gcc/tree/master/libstdc%2B%2B-v3/src/c%2B%2B11
+
 ## Resources 
 
 Please have a look at the varieties of resources as follows.
