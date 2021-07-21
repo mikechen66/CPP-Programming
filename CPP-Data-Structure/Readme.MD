@@ -20,3 +20,7 @@ enumeration method, backtracking method and greedy method. It includes
 sorting algorithms, search algorithms, array and linked list algorithms, 
 security algorithms, stack and queue algorithms, tree graph structures 
 algorithms. 
+
+## Reference
+
+https://www.mica.edu.vn/perso/Vu-Hai/EE3490/Ref/The%20C++Standard%20Library%20-%202nd%20Edition.pdf
