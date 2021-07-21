@@ -33,7 +33,7 @@ https://github.com/fatih-iver/The-C-Plus-Plus-Programming-Language
 
 https://github.com/Raj-kar/C-Plus-Plus
 
-Book Introduction
+The C++ Programming Language (4th Edition)
 
 https://www.stroustrup.com/4th.html
 
