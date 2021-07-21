@@ -23,19 +23,25 @@ Users can adopt the online c compilers including [onlinegdb c compiler](https://
 
 GCC provide the source code of [Library of libstdc++ v3](https://github.com/gcc-mirror/gcc/tree/master/libstdc%2B%2B-v3/src) at github. It includes C++11, C++17, C++20 and C++98, filesysterm, shared, etc. Besides, it has the weblink of [GCC mirror sites](https://gcc.gnu.org/mirrors.html), for instance, the site of San Francisco is listed as [San Francisco Mirror](https://bigsearcher.com/mirrors/gcc/). Readers can take both of them for reference. 
 
-## Resources 
+
 
 Please have a look at the varieties of resources as follows.
 
-Source Code 
+## Source Code (Github)
 
-https://github.com/gcc-mirror/gcc/tree/master/libstdc%2B%2B-v3/libsupc%2B%2B
+[GCC C++ source code](https://github.com/gcc-mirror/gcc/tree/master/libstdc%2B%2B-v3/libsupc%2B%2B)
 
-https://github.com/google/libcxx
+[Google C++ source code 2012](https://github.com/google/libcxx)
 
-https://github.com/apache/stdcxx/tree/trunk/src
+[Apache stdcxx source code](https://github.com/apache/stdcxx/tree/trunk/src)
 
-https://github.com/microsoft/STL
+[Microsoft C++ STL](https://github.com/microsoft/STL)
+
+
+## Resources 
+
+Source Code:
+GNU CXX Projects: 
 
 https://gcc.gnu.org/projects/cxx-status.html
 
@@ -47,7 +53,7 @@ https://gcc.gnu.org/onlinedocs/libstdc++/
 
 https://gcc.gnu.org/projects/cxx-status.html#cxx23
 
-Others: 
+Other Materials: 
 
 https://www.cplusplus.com/doc/tutorial/
 
