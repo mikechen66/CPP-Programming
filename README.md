@@ -44,7 +44,7 @@ Some of the source code are listed in the Github. So users can directlt click th
 
 The resources includes source code in the related weblinks. In addition, other materials are provided for further reference. 
 
-Source Code:
+### Source Code:
 
 GNU CXX Projects: 
 
@@ -58,7 +58,7 @@ https://gcc.gnu.org/onlinedocs/libstdc++/
 
 https://gcc.gnu.org/projects/cxx-status.html#cxx23
 
-Other Materials: 
+### Other Materials: 
 
 https://www.cplusplus.com/doc/tutorial/
 
