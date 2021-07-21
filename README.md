@@ -9,9 +9,31 @@ C++ is a general-purpose programming language created by Bjarne Stroustrup as an
 
 C++ is standardized by the ISO with the latest standard version ratified and published as ISO/IEC 14882:2020 (informally known as C++20). The C++ programming language was initially standardized in 1998 as ISO/IEC 14882:1998, which was then amended by the C++03, C++11, C++14, and C++17 standards. The current C++20 standard supersedes these with new features and an enlarged standard library. Before the initial standardization in 1998, C++ was developed by Bjarne Stroustrup at Bell Labs since 1979 as an extension of the C language. Since 2012, C++ has been on a three-year release schedule with C++23 as the next planned standard.
 
+
 ## High Performance 
 
 C++ was designed with an orientation toward system programming and embedded, resource-constrained software and large systems, with performance, efficiency, and flexibility of use as its design highlights. C++ has also been found quite useful in the performance-critical fields of system application, database, GPU-enabled deep learning, graphics design, search engine, e-commerce, financial transaction and video games. 
+
+
+## GNU C Library (glibc)
+
+Download sources (
+The code will be doanloaded into the directory of /home/user with Ubuntu. 
+
+Checkout the latest glibc in development:
+
+git clone https://sourceware.org/git/glibc.git
+    cd glibc
+    git checkout master
+    Releases are available by source branch checkout (gitweb) and tarball via ftp.
+
+Checkout the latest glibc 2.33 stable release:
+
+    git clone https://sourceware.org/git/glibc.git
+    cd glibc
+    git checkout release/2.33/master
+    
+Release tarballs are available via anonymous ftp at http://ftp.gnu.org/gnu/glibc/ and its mirrors.
 
 ## Resources 
 
