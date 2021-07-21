@@ -31,11 +31,11 @@ Please have a look at the varieties of resources as follows.
 
 [GCC C++ source code](https://github.com/gcc-mirror/gcc/tree/master/libstdc%2B%2B-v3/libsupc%2B%2B)
 
-[Google C++ source code 2012](https://github.com/google/libcxx)
+[Google C++ source code 2012](https://github.com/google/libcxx/tree/master/src)
 
 [Apache stdcxx source code](https://github.com/apache/stdcxx/tree/trunk/src)
 
-[Microsoft C++ STL](https://github.com/microsoft/STL)
+[Microsoft C++ STL source code](https://github.com/microsoft/STL/tree/main/stl/src)
 
 
 ## Resources 
