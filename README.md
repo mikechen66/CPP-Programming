@@ -64,6 +64,8 @@ https://www.cplusplus.com/doc/tutorial/
 
 https://libcxx.llvm.org/
 
+https://web.stanford.edu/dept/cs_edu/cppdoc/
+
 https://docs.microsoft.com/en-us/cpp/?view=msvc-160
 
 https://sourceforge.net/projects/stlport/
